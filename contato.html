@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Contato com a Terra Média</title>
+
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="contato">
+<h1>Contato com a Terra Média</h1>
+
+<p>Envie sua mensagem diretamente para o Conselho de Elrond</p>
+</div>
+<form>
+
+
+<label>Nome na Terra Média:</label><br>
+<input type="text" value="ARAGORN" required>
+<br><br>
+
+
+<label>Corvo eletrônico (Email):</label><br>
+<input type="email" required>
+<br><br>
+
+
+<fieldset>
+<legend>Qual é a sua raça?</legend>
+
+<input type="radio" name="raca" value="Humano"> Humano
+<input type="radio" name="raca" value="Elfo"> Elfo
+<input type="radio" name="raca" value="Anao"> Anão
+<input type="radio" name="raca" value="Hobbit"> Hobbit
+
+</fieldset>
+
+<br>
+
+
+<label>Escolha seu filme favorito:</label><br>
+<select>
+    <option>A Sociedade do Anel</option>
+    <option>As Duas Torres</option>
+    <option>O Retorno do Rei</option>
+</select>
+
+<br><br>
+
+<label>Escolha um local da Terra Média:</label><br>
+<select>
+
+    <optgroup label="Reinos dos Homens">
+        <option>Gondor</option>
+        <option>Rohan</option>
+    </optgroup>
+
+    <optgroup label="Terras Élficas">
+        <option>Valfenda</option>
+        <option>Lothlórien</option>
+    </optgroup>
+
+    <optgroup label="Outros">
+        <option>Mordor</option>
+    </optgroup>
+
+</select>
+
+<br><br>
+
+<fieldset>
+<legend>Suas habilidades</legend>
+
+<input type="checkbox"> Espada
+<input type="checkbox"> Arco e flecha
+<input type="checkbox"> Magia
+<input type="checkbox"> Furtividade Hobbit
+
+</fieldset>
+
+<br>
+
+
+<label>Nível de coragem (1 a 10):</label><br>
+<input type="range" min="1" max="10">
+
+<br><br>
+
+
+<label>Seu reino de origem:</label><br>
+<input list="reinos">
+<datalist id="reinos">
+    <option value="Gondor">
+    <option value="Rohan">
+    <option value="Valfenda">
+    <option value="Mordor">
+</datalist>
+
+<br><br>
+
+
+<label>Cor do seu manto:</label><br>
+<input type="color" value="#000000">
+
+<br><br>
+
+<!-- Data -->
+<label>Data da sua jornada:</label><br>
+<input type="date">
+
+<br><br>
+
+
+<label>Anexe uma relíquia:</label><br>
+<input type="file">
+
+<br><br>
+
+
+<label>Mensagem ao Conselho:</label><br>
+<textarea rows="4" placeholder="Escreva sua missão..."></textarea>
+
+<br><br>
+
+<button type="reset">Apagar Pergaminho</button>
+<button type="submit">Enviar para Valfenda</button>
+
+</form>
+
+</body>
+</html>
